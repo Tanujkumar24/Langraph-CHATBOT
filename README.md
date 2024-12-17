@@ -1,6 +1,6 @@
 # 🚀 **ChatBot with LangGraph and Streamlit**
 
-![LangGraph ChatBot](https://via.placeholder.com/1200x400?text=ChatBot+Demo+Image)  
+![LangGraph ChatBot](https://drive.google.com/drive/folders/1bew1l_FDsl0t1boozq8oOjVuDt1CbdiN)  
 > *A powerful AI chatbot workflow using LangChain, LangGraph, Groq, and Streamlit for an interactive and tool-augmented chatbot.*
 
 ---
@@ -41,16 +41,21 @@ This chatbot can answer questions, search the web for real-time data, and demons
 
 ---
 
-## 🌐 **Workflow Diagram**
+## 📸 **Screenshots**
 
-Below is the visual representation of the **LangGraph workflow**:
+### Chatbot UI (Streamlit)
+![Chatbot UI](https://via.placeholder.com/800x400?text=Streamlit+ChatBot+UI)
 
-```mermaid
-flowchart TD
-    Start[Start] --> Agent[Agent Node: Process Input via LLM]
-    Agent -->|Tool Call Detected| Tools[Tools Node: Tavily Search]
-    Tools --> Agent
-    Agent -->|No Tool Needed| End(End)
+### Example Response:
+**User Input:** "Who is the current prime minister of the USA?"  
+**Bot Response:** *"I could not find any official Prime Minister as the USA has a President. The current President is Joe Biden."*
+
+### LangGraph State Transition
+![LangGraph Workflow](https://via.placeholder.com/800x400?text=LangGraph+State+Graph)
+
+---
+
+## 🛠️ **Setup and Installation**
 
 Follow these steps to set up the project locally:
 
