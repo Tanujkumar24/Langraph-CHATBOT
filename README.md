@@ -52,5 +52,4 @@ flowchart TD
     Tools --> Agent
     Agent -->|No Tool Needed| End(End)
 
-# Initialize the model with specific configuration
-model = ChatGroq(model_name="Gemma2-9b-It")
+
