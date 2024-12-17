@@ -51,16 +51,6 @@ flowchart TD
     Agent -->|Tool Call Detected| Tools[Tools Node: Tavily Search]
     Tools --> Agent
     Agent -->|No Tool Needed| End(End)
----
-## 🧩 Code Walkthrough
-
-### `bot.py` - Chatbot Logic
-
-#### Model Initialization:
-In this section, the **ChatGroq** model `Gemma2-9b-It` is loaded to process the input from the user.
-
-```python
-from chatgroq import ChatGroq
 
 # Initialize the model with specific configuration
 model = ChatGroq(model_name="Gemma2-9b-It")
