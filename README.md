@@ -1,6 +1,6 @@
 # 🚀 **ChatBot with LangGraph and Streamlit**
 
-![LangGraph ChatBot](https://via.placeholder.com/1200x400?text=ChatBot+Demo+Image)  
+![LangGraph ChatBot](https://github.com/Tanujkumar24/Langraph-CHATBOT/blob/main/LANGGRAPH-CHATBOT.png)  
 > *A powerful AI chatbot workflow using LangChain, LangGraph, Groq, and Streamlit for an interactive and tool-augmented chatbot.*
 
 ---
