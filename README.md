@@ -51,3 +51,25 @@ flowchart TD
     Agent -->|Tool Call Detected| Tools[Tools Node: Tavily Search]
     Tools --> Agent
     Agent -->|No Tool Needed| End(End)
+## 📸 **Screenshots**
+
+### Chatbot UI (Streamlit)
+![Chatbot UI](https://via.placeholder.com/800x400?text=Streamlit+ChatBot+UI)
+
+### Example Response:
+**User Input:** "Who is the current prime minister of the USA?"  
+**Bot Response:** *"I could not find any official Prime Minister as the USA has a President. The current President is Joe Biden."*
+
+### LangGraph State Transition
+![LangGraph Workflow](https://via.placeholder.com/800x400?text=LangGraph+State+Graph)
+
+---
+
+## 🛠️ **Setup and Installation**
+
+Follow these steps to set up the project locally:
+
+### 1. **Clone the Repository**
+```bash
+git clone https://github.com/yourusername/chatbot-langgraph.git
+cd chatbot-langgraph
